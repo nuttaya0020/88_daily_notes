@@ -11,3 +11,6 @@ class Note(Document):
     content = StringField()
     created_at = DateTimeField(default=datetime.utcnow)
     user = ReferenceField(User)
+
+
+#eueiaeueia
